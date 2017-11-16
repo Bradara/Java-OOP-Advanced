@@ -1,14 +1,10 @@
 package Ferrari.Cars;
 
-public class Ferrari implements Car {
+public class Ferrari{
     private String driver;
 
     public Ferrari(String driver) {
         this.driver = driver;
     }
 
-    @Override
-    public String getDriver() {
-        return this.driver;
-    }
 }
