@@ -13,6 +13,6 @@ public abstract class BasePerson implements Person{
 
     @Override
     public String getName() {
-        return this.name;
+        return this.getName();
     }
 }
