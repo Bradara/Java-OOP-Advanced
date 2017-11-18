@@ -5,5 +5,5 @@ public interface ISpecialisedSoldier {
         Airforces, Marines
     }
 
-    Corps getCorp();
+    String getCorp();
 }

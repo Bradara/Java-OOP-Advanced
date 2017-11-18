@@ -1,7 +1,8 @@
 package MilitaryElite.Soldiers;
 
-import java.util.List;
+import java.util.Set;
 
 public interface ILeutenantGeneral {
-    List<Private> getPrivates();
+    Set<Private> getPrivates();
+    void addPrivate(Private p);
 }
