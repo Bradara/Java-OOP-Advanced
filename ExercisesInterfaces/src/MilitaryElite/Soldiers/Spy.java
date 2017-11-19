@@ -3,22 +3,22 @@ package MilitaryElite.Soldiers;
 import java.util.Map;
 import java.util.Set;
 
-public class Private extends Soldier implements IPrivate{
-    private double salary;
+public class Spy extends Soldier implements ISpy {
+    private String codeName;
 
-    public Private(String id, String firstName, String lastName, double salary) {
+    public Spy(String id, String firstName, String lastName, String codeName) {
         super(id, firstName, lastName);
-        this.salary = salary;
+        this.codeName = codeName;
     }
 
     @Override
-    public double getSalary() {
-        return this.salary;
+    public String getCodeName() {
+        return this.codeName;
     }
 
     @Override
     public String toString() {
-        return super.toString() + String.format("Salary: %.2f%n", this.salary);
+        return super.toString() + String.format("%nCode Number: %s%n", this.codeName);
     }
 
     @Override

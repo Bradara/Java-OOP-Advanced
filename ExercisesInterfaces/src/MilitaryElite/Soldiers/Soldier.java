@@ -1,11 +1,11 @@
 package MilitaryElite.Soldiers;
 
-public abstract class Soldier implements ISoldier{
+public abstract class Soldier implements ISoldier, ICommando, ILeutenantGeneral, IEngineer{
     private String id;
     private String firstName;
     private String lastName;
 
-    public Soldier(String firstName, String lastName, String id) {
+    public Soldier( String id, String firstName, String lastName) {
         this.id = id;
         this.firstName = firstName;
         this.lastName = lastName;
@@ -26,4 +26,8 @@ public abstract class Soldier implements ISoldier{
         return this.lastName;
     }
 
+    @Override
+    public String toString() {
+        return String.format("Name: %s %s Id: %s ", this.firstName, this.lastName, this.id);
+    }
 }

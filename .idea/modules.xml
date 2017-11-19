@@ -4,6 +4,7 @@
     <modules>
       <module fileurl="file://$PROJECT_DIR$/Exercises.iml" filepath="$PROJECT_DIR$/Exercises.iml" />
       <module fileurl="file://$PROJECT_DIR$/ExercisesInterfaces/ExercisesInterfaces.iml" filepath="$PROJECT_DIR$/ExercisesInterfaces/ExercisesInterfaces.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LabGenerics/LabGenerics.iml" filepath="$PROJECT_DIR$/LabGenerics/LabGenerics.iml" />
       <module fileurl="file://$PROJECT_DIR$/LabInterfacesandAbstraction/LabInterfacesandAbstraction.iml" filepath="$PROJECT_DIR$/LabInterfacesandAbstraction/LabInterfacesandAbstraction.iml" />
     </modules>
   </component>
