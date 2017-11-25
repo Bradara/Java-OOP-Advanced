@@ -2,9 +2,10 @@ package ListIterator;
 
 import java.util.ArrayList;
 import java.util.Arrays;
+import java.util.Iterator;
 import java.util.List;
 
-public class ListIterator {
+public class ListIterator implements Iterator<String> {
     private List<String> collection;
     private int index = 0;
 
@@ -29,11 +30,28 @@ public class ListIterator {
         }
 
         index++;
+
         return true;
     }
 
     public boolean hasNext(){
         return index + 1 < collection.size();
+    }
+
+    @Override
+    public String next() {
+        if (this.hasNext()){
+            return this.collection.get(++index);
+        }
+        return null;
+    }
+
+    public void printAll(){
+        for (String s : this.collection) {
+            System.out.print(s);
+            System.out.print(" ");
+        }
+        System.out.println();
     }
 
     public String print(){

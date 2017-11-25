@@ -33,6 +33,9 @@ public class Main {
                 case "HasNext":
                     System.out.println(iterator.hasNext());
                     break;
+                case "PrintAll":
+                    iterator.printAll();
+                    break;
                 default:
                     break;
             }
