@@ -1,20 +1,45 @@
 package Reflection;
-;
+
+import java.lang.reflect.Field;
+import java.lang.reflect.Method;
+import java.lang.reflect.Modifier;
+import java.util.*;
+import java.util.stream.Collectors;
 
 public class Main {
     public static void main(String[] args) throws ClassNotFoundException, IllegalAccessException, InstantiationException {
         Class cl = Reflection.class;
-        System.out.println("class " + cl.getSimpleName());
-        System.out.println(cl.getSuperclass());
-        Class[] interfaces = cl.getInterfaces();
+        int count = 0;
+        Field[] fields = cl.getFields();
+        List<String> publicFields = Arrays.stream(fields).map(Field::getName)
+                .sorted(Comparator.naturalOrder())
+                .collect(Collectors.toList());
 
-        for (Class anInterface : interfaces) {
-            System.out.println(anInterface);
+        System.out.println("Fields");
+        for (String field : publicFields) {
+            System.out.println("\t" + field + " must be private!");
         }
 
-        Reflection rf = (Reflection) cl.newInstance();
+        String[] getters = Arrays.stream(cl.getDeclaredMethods())
+                .filter(m -> m.getModifiers() == Modifier.PRIVATE)
+                .map(Method::getName)
+                .sorted(Comparator.naturalOrder())
+                .toArray(String[]::new);
 
-        System.out.println(rf);
+        System.out.println("Getters");
+        for (String method : getters) {
+            System.out.println("\t" + method + " have to be public!");
+        }
 
+        String[] setters = Arrays.stream(cl.getDeclaredMethods())
+                .filter(m -> m.getModifiers() == Modifier.PUBLIC)
+                .map(Method::getName)
+                .sorted(Comparator.naturalOrder())
+                .toArray(String[]::new);
+
+        System.out.println("Setters");
+        for (String method : setters) {
+            System.out.println("\t" + method + " have to be public!");
+        }
     }
 }

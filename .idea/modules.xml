@@ -2,11 +2,16 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
+      <module fileurl="file://$PROJECT_DIR$/ExercicesInterfaceSeg/ExercicesInterfaceSeg.iml" filepath="$PROJECT_DIR$/ExercicesInterfaceSeg/ExercicesInterfaceSeg.iml" />
       <module fileurl="file://$PROJECT_DIR$/Exercises.iml" filepath="$PROJECT_DIR$/Exercises.iml" />
       <module fileurl="file://$PROJECT_DIR$/ExercisesGenerics/ExercisesGenerics.iml" filepath="$PROJECT_DIR$/ExercisesGenerics/ExercisesGenerics.iml" />
       <module fileurl="file://$PROJECT_DIR$/ExercisesInterfaces/ExercisesInterfaces.iml" filepath="$PROJECT_DIR$/ExercisesInterfaces/ExercisesInterfaces.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExercisesOpenCloseLiskov/ExercisesOpenCloseLiskov.iml" filepath="$PROJECT_DIR$/ExercisesOpenCloseLiskov/ExercisesOpenCloseLiskov.iml" />
+      <module fileurl="file://$PROJECT_DIR$/ExercisesReflection/ExercisesReflection.iml" filepath="$PROJECT_DIR$/ExercisesReflection/ExercisesReflection.iml" />
       <module fileurl="file://$PROJECT_DIR$/LabGenerics/LabGenerics.iml" filepath="$PROJECT_DIR$/LabGenerics/LabGenerics.iml" />
       <module fileurl="file://$PROJECT_DIR$/LabInterfacesandAbstraction/LabInterfacesandAbstraction.iml" filepath="$PROJECT_DIR$/LabInterfacesandAbstraction/LabInterfacesandAbstraction.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LabReflection/LabReflection.iml" filepath="$PROJECT_DIR$/LabReflection/LabReflection.iml" />
+      <module fileurl="file://$PROJECT_DIR$/LabUnitTest/LabUnitTest.iml" filepath="$PROJECT_DIR$/LabUnitTest/LabUnitTest.iml" />
     </modules>
   </component>
 </project>
