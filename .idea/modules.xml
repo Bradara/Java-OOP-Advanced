@@ -12,6 +12,8 @@
       <module fileurl="file://$PROJECT_DIR$/LabInterfacesandAbstraction/LabInterfacesandAbstraction.iml" filepath="$PROJECT_DIR$/LabInterfacesandAbstraction/LabInterfacesandAbstraction.iml" />
       <module fileurl="file://$PROJECT_DIR$/LabReflection/LabReflection.iml" filepath="$PROJECT_DIR$/LabReflection/LabReflection.iml" />
       <module fileurl="file://$PROJECT_DIR$/LabUnitTest/LabUnitTest.iml" filepath="$PROJECT_DIR$/LabUnitTest/LabUnitTest.iml" />
+      <module fileurl="file://$PROJECT_DIR$/exercise_event_and_communication/exercise_event_and_communication.iml" filepath="$PROJECT_DIR$/exercise_event_and_communication/exercise_event_and_communication.iml" />
+      <module fileurl="file://$PROJECT_DIR$/lab_object_communication_pattern/lab_object_communication_pattern.iml" filepath="$PROJECT_DIR$/lab_object_communication_pattern/lab_object_communication_pattern.iml" />
     </modules>
   </component>
 </project>

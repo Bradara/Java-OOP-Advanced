@@ -1,84 +1,121 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="02012d31-b3a4-4fb8-9572-bdf7ec400875" name="Default" comment="Problems for SOLID Exercises">
-      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/compiler.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ExercicesInterfaceSeg/ExercicesInterfaceSeg.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ExercicesInterfaceSeg/src/Core/CommandHandler.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ExercicesInterfaceSeg/src/Core/Engine.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ExercicesInterfaceSeg/src/Main.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ExercicesInterfaceSeg/src/Utility/Constants.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ExercicesInterfaceSeg/src/Utility/Validator.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ExercicesInterfaceSeg/src/contracts/IBoatSimulatorController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ExercicesInterfaceSeg/src/contracts/ICommandHandler.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ExercicesInterfaceSeg/src/contracts/IModelable.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ExercicesInterfaceSeg/src/contracts/IRace.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ExercicesInterfaceSeg/src/contracts/IRepository.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ExercicesInterfaceSeg/src/controllers/BoatSimulatorController.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ExercicesInterfaceSeg/src/database/BoatSimulatorDatabase.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ExercicesInterfaceSeg/src/database/Repository.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ExercicesInterfaceSeg/src/enumeration/EngineType.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ExercicesInterfaceSeg/src/exeptions/DuplicateModelException.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ExercicesInterfaceSeg/src/exeptions/InsufficientContestantsException.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ExercicesInterfaceSeg/src/exeptions/NoSetRaceException.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ExercicesInterfaceSeg/src/exeptions/NonExistantModelException.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ExercicesInterfaceSeg/src/exeptions/RaceAlreadyExistsException.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ExercicesInterfaceSeg/src/models/JetEngine.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ExercicesInterfaceSeg/src/models/MotorBoat.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ExercicesInterfaceSeg/src/models/Race.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ExercicesInterfaceSeg/src/models/SterndriveEngine.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ExercisesOpenCloseLiskov/02.Blobs-Skeleton/02.Blobs-Skeleton.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ExercisesOpenCloseLiskov/02.Blobs-Skeleton/02.Blobs-Skeleton.ipr" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ExercisesOpenCloseLiskov/02.Blobs-Skeleton/02.Blobs-Skeleton.iws" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ExercisesOpenCloseLiskov/02.Blobs-Skeleton/src/interfaces/Attack.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ExercisesOpenCloseLiskov/02.Blobs-Skeleton/src/interfaces/Behavior.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ExercisesOpenCloseLiskov/02.Blobs-Skeleton/src/models/Blob.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ExercisesOpenCloseLiskov/02.Blobs-Skeleton/src/models/attacks/AbstractAttack.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ExercisesOpenCloseLiskov/02.Blobs-Skeleton/src/models/attacks/Blobplode.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ExercisesOpenCloseLiskov/02.Blobs-Skeleton/src/models/attacks/PutridFart.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ExercisesOpenCloseLiskov/02.Blobs-Skeleton/src/models/behavors/AbstractBehavior.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ExercisesOpenCloseLiskov/02.Blobs-Skeleton/src/models/behavors/Aggressive.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ExercisesOpenCloseLiskov/02.Blobs-Skeleton/src/models/behavors/Inflated.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ExercisesReflection/src/BlackBoxInteger/BlackBoxInt.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ExercisesReflection/src/BlackBoxInteger/Main.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ExercisesReflection/src/HarvestingFields/Main.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ExercisesReflection/src/HarvestingFields/RichSoilLand.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ExercisesReflection/src/pr0304Barracks/Main.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ExercisesReflection/src/pr0304Barracks/contracts/Attacker.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ExercisesReflection/src/pr0304Barracks/contracts/CommandInterpreter.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ExercisesReflection/src/pr0304Barracks/contracts/Destroyable.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ExercisesReflection/src/pr0304Barracks/contracts/Executable.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ExercisesReflection/src/pr0304Barracks/contracts/Repository.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ExercisesReflection/src/pr0304Barracks/contracts/Runnable.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ExercisesReflection/src/pr0304Barracks/contracts/Unit.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ExercisesReflection/src/pr0304Barracks/contracts/UnitFactory.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ExercisesReflection/src/pr0304Barracks/core/Engine.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ExercisesReflection/src/pr0304Barracks/core/commands/AddCommand.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ExercisesReflection/src/pr0304Barracks/core/commands/Command.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ExercisesReflection/src/pr0304Barracks/core/commands/FightCommand.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ExercisesReflection/src/pr0304Barracks/core/commands/ReportCommand.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ExercisesReflection/src/pr0304Barracks/core/commands/RetireCommand.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ExercisesReflection/src/pr0304Barracks/core/factories/UnitFactoryImpl.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ExercisesReflection/src/pr0304Barracks/data/UnitRepository.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ExercisesReflection/src/pr0304Barracks/models/units/AbstractUnit.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ExercisesReflection/src/pr0304Barracks/models/units/Archer.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ExercisesReflection/src/pr0304Barracks/models/units/Gunner.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ExercisesReflection/src/pr0304Barracks/models/units/Horseman.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ExercisesReflection/src/pr0304Barracks/models/units/Pikeman.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/ExercisesReflection/src/pr0304Barracks/models/units/Swordsman.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/LabReflection/LabReflection.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/LabReflection/src/Reflection/Reflection.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/LabUnitTest/LabUnitTest.iml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/LabUnitTest/pom.xml" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/LabUnitTest/src/main/java/rpg_lab/Axe.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/LabUnitTest/src/main/java/rpg_lab/Dummy.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/LabUnitTest/src/main/java/rpg_lab/Hero.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/LabUnitTest/src/test/java/rpg_lab/DummyTest.java" />
-      <change beforePath="" afterPath="$PROJECT_DIR$/LabUnitTest/src/test/java/rpg_tests/AxeTests.java" />
-      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" afterPath="$PROJECT_DIR$/.idea/misc.xml" />
+    <list default="true" id="02012d31-b3a4-4fb8-9572-bdf7ec400875" name="Default" comment="">
+      <change beforePath="" afterPath="$PROJECT_DIR$/.idea/codeStyles/codeStyleConfig.xml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ExercicesInterfaceSeg/src/contracts/Boat.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ExercicesInterfaceSeg/src/contracts/BoatEngine.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ExercicesInterfaceSeg/src/contracts/InputReader.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ExercicesInterfaceSeg/src/contracts/OutputWriter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ExercicesInterfaceSeg/src/io/ConsoleInputReader.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ExercicesInterfaceSeg/src/io/ConsoleOutputWriter.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ExercicesInterfaceSeg/src/models/RaceImpl.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ExercicesInterfaceSeg/src/models/boats/BaseBoat.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ExercicesInterfaceSeg/src/models/boats/PowerBoat.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ExercicesInterfaceSeg/src/models/boats/RowBoat.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ExercicesInterfaceSeg/src/models/boats/SailBoat.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ExercicesInterfaceSeg/src/models/boats/Yacht.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ExercicesInterfaceSeg/src/models/engine/BaseEngine.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ExercicesInterfaceSeg/src/models/engine/JetEngine.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/ExercicesInterfaceSeg/src/models/engine/SterndriveEngines.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/exercise_event_and_communication/exercise_event_and_communication.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/exercise_event_and_communication/src/event_implementation/Disparcher.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/exercise_event_and_communication/src/event_implementation/Event.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/exercise_event_and_communication/src/event_implementation/EventObject.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/exercise_event_and_communication/src/event_implementation/Handler.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/exercise_event_and_communication/src/event_implementation/Main.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/exercise_event_and_communication/src/event_implementation/NameChangeListener.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/exercise_event_and_communication/src/event_implementation/NameChenge.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/exercise_event_and_communication/src/kings_gambit/Main.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/exercise_event_and_communication/src/kings_gambit/Post/Footman.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/exercise_event_and_communication/src/kings_gambit/Post/King.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/exercise_event_and_communication/src/kings_gambit/Post/RoyalGuard.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/exercise_event_and_communication/src/kings_gambit/contracts/Attackable.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/exercise_event_and_communication/src/kings_gambit/contracts/CourtPost.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/exercise_event_and_communication/src/kings_gambit/contracts/Killable.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/exercise_event_and_communication/src/kings_gambit/contracts/Observer.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab_object_communication_pattern/lab_object_communication_pattern.iml" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab_object_communication_pattern/src/AbstractHero.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab_object_communication_pattern/src/Commands/AttackCommand.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab_object_communication_pattern/src/Commands/CommandExecutor.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab_object_communication_pattern/src/Commands/GroupAttackCommand.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab_object_communication_pattern/src/Commands/GroupRegisterCommand.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab_object_communication_pattern/src/Commands/GroupTargetCommand.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab_object_communication_pattern/src/Commands/RegisterCommand.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab_object_communication_pattern/src/Commands/TargetCommand.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab_object_communication_pattern/src/Dragon.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab_object_communication_pattern/src/Group.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab_object_communication_pattern/src/Main.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab_object_communication_pattern/src/Warrior.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab_object_communication_pattern/src/enums/LogType.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab_object_communication_pattern/src/interfaces/AttackGroup.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab_object_communication_pattern/src/interfaces/Attacker.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab_object_communication_pattern/src/interfaces/Command.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab_object_communication_pattern/src/interfaces/Executor.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab_object_communication_pattern/src/interfaces/Handler.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab_object_communication_pattern/src/interfaces/ObservableAttacker.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab_object_communication_pattern/src/interfaces/ObservableTarget.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab_object_communication_pattern/src/interfaces/Observer.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab_object_communication_pattern/src/interfaces/Subject.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab_object_communication_pattern/src/interfaces/Target.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab_object_communication_pattern/src/loggers/CombatLogger.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab_object_communication_pattern/src/loggers/EventLogger.java" />
+      <change beforePath="" afterPath="$PROJECT_DIR$/lab_object_communication_pattern/src/loggers/Logger.java" />
       <change beforePath="$PROJECT_DIR$/.idea/modules.xml" afterPath="$PROJECT_DIR$/.idea/modules.xml" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change beforePath="$PROJECT_DIR$/LabReflection/src/Reflection/Main.java" afterPath="$PROJECT_DIR$/LabReflection/src/Reflection/Main.java" />
+      <change beforePath="$PROJECT_DIR$/ExercicesInterfaceSeg/src/Core/CommandHandler.java" afterPath="$PROJECT_DIR$/ExercicesInterfaceSeg/src/Core/CommandHandler.java" />
+      <change beforePath="$PROJECT_DIR$/ExercicesInterfaceSeg/src/Core/Engine.java" afterPath="$PROJECT_DIR$/ExercicesInterfaceSeg/src/Core/Engine.java" />
+      <change beforePath="$PROJECT_DIR$/ExercicesInterfaceSeg/src/Main.java" afterPath="$PROJECT_DIR$/ExercicesInterfaceSeg/src/Main.java" />
+      <change beforePath="$PROJECT_DIR$/ExercicesInterfaceSeg/src/Utility/Constants.java" afterPath="$PROJECT_DIR$/ExercicesInterfaceSeg/src/Utility/Constants.java" />
+      <change beforePath="$PROJECT_DIR$/ExercicesInterfaceSeg/src/Utility/Validator.java" afterPath="$PROJECT_DIR$/ExercicesInterfaceSeg/src/Utility/Validator.java" />
+      <change beforePath="$PROJECT_DIR$/ExercicesInterfaceSeg/src/contracts/IBoatSimulatorController.java" afterPath="$PROJECT_DIR$/ExercicesInterfaceSeg/src/contracts/BoatSimulator.java" />
+      <change beforePath="$PROJECT_DIR$/ExercicesInterfaceSeg/src/contracts/ICommandHandler.java" afterPath="$PROJECT_DIR$/ExercicesInterfaceSeg/src/contracts/Command.java" />
+      <change beforePath="$PROJECT_DIR$/ExercicesInterfaceSeg/src/contracts/IModelable.java" afterPath="$PROJECT_DIR$/ExercicesInterfaceSeg/src/contracts/Modelable.java" />
+      <change beforePath="$PROJECT_DIR$/ExercicesInterfaceSeg/src/contracts/IRace.java" afterPath="$PROJECT_DIR$/ExercicesInterfaceSeg/src/contracts/Race.java" />
+      <change beforePath="$PROJECT_DIR$/ExercicesInterfaceSeg/src/contracts/IRepository.java" afterPath="$PROJECT_DIR$/ExercicesInterfaceSeg/src/contracts/Repository.java" />
+      <change beforePath="$PROJECT_DIR$/ExercicesInterfaceSeg/src/controllers/BoatSimulatorController.java" afterPath="$PROJECT_DIR$/ExercicesInterfaceSeg/src/controllers/BoatSimulatorCtrl.java" />
+      <change beforePath="$PROJECT_DIR$/ExercicesInterfaceSeg/src/database/BoatSimulatorDatabase.java" afterPath="$PROJECT_DIR$/ExercicesInterfaceSeg/src/database/BoatSimulatorDatabase.java" />
+      <change beforePath="$PROJECT_DIR$/ExercicesInterfaceSeg/src/database/Repository.java" afterPath="$PROJECT_DIR$/ExercicesInterfaceSeg/src/database/RepositoryImpl.java" />
+      <change beforePath="$PROJECT_DIR$/ExercicesInterfaceSeg/src/enumeration/EngineType.java" afterPath="$PROJECT_DIR$/ExercicesInterfaceSeg/src/enumeration/EngineType.java" />
+      <change beforePath="$PROJECT_DIR$/ExercicesInterfaceSeg/src/exeptions/DuplicateModelException.java" afterPath="$PROJECT_DIR$/ExercicesInterfaceSeg/src/exeptions/DuplicateModelException.java" />
+      <change beforePath="$PROJECT_DIR$/ExercicesInterfaceSeg/src/exeptions/InsufficientContestantsException.java" afterPath="$PROJECT_DIR$/ExercicesInterfaceSeg/src/exeptions/InsufficientContestantsException.java" />
+      <change beforePath="$PROJECT_DIR$/ExercicesInterfaceSeg/src/exeptions/NoSetRaceException.java" afterPath="$PROJECT_DIR$/ExercicesInterfaceSeg/src/exeptions/NoSetRaceException.java" />
+      <change beforePath="$PROJECT_DIR$/ExercicesInterfaceSeg/src/exeptions/NonExistantModelException.java" afterPath="$PROJECT_DIR$/ExercicesInterfaceSeg/src/exeptions/NonExistantModelException.java" />
+      <change beforePath="$PROJECT_DIR$/ExercicesInterfaceSeg/src/exeptions/RaceAlreadyExistsException.java" afterPath="$PROJECT_DIR$/ExercicesInterfaceSeg/src/exeptions/RaceAlreadyExistsException.java" />
+      <change beforePath="$PROJECT_DIR$/ExercicesInterfaceSeg/src/models/JetEngine.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ExercicesInterfaceSeg/src/models/MotorBoat.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ExercicesInterfaceSeg/src/models/Race.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ExercicesInterfaceSeg/src/models/SterndriveEngine.java" afterPath="" />
+      <change beforePath="$PROJECT_DIR$/ExercisesOpenCloseLiskov/02.Blobs-Skeleton/src/interfaces/Attack.java" afterPath="$PROJECT_DIR$/ExercisesOpenCloseLiskov/02.Blobs-Skeleton/src/interfaces/Attack.java" />
+      <change beforePath="$PROJECT_DIR$/ExercisesOpenCloseLiskov/02.Blobs-Skeleton/src/interfaces/Behavior.java" afterPath="$PROJECT_DIR$/ExercisesOpenCloseLiskov/02.Blobs-Skeleton/src/interfaces/Behavior.java" />
+      <change beforePath="$PROJECT_DIR$/ExercisesOpenCloseLiskov/02.Blobs-Skeleton/src/models/Blob.java" afterPath="$PROJECT_DIR$/ExercisesOpenCloseLiskov/02.Blobs-Skeleton/src/models/Blob.java" />
+      <change beforePath="$PROJECT_DIR$/ExercisesOpenCloseLiskov/02.Blobs-Skeleton/src/models/attacks/AbstractAttack.java" afterPath="$PROJECT_DIR$/ExercisesOpenCloseLiskov/02.Blobs-Skeleton/src/models/attacks/AbstractAttack.java" />
+      <change beforePath="$PROJECT_DIR$/ExercisesOpenCloseLiskov/02.Blobs-Skeleton/src/models/attacks/Blobplode.java" afterPath="$PROJECT_DIR$/ExercisesOpenCloseLiskov/02.Blobs-Skeleton/src/models/attacks/Blobplode.java" />
+      <change beforePath="$PROJECT_DIR$/ExercisesOpenCloseLiskov/02.Blobs-Skeleton/src/models/attacks/PutridFart.java" afterPath="$PROJECT_DIR$/ExercisesOpenCloseLiskov/02.Blobs-Skeleton/src/models/attacks/PutridFart.java" />
+      <change beforePath="$PROJECT_DIR$/ExercisesOpenCloseLiskov/02.Blobs-Skeleton/src/models/behavors/AbstractBehavior.java" afterPath="$PROJECT_DIR$/ExercisesOpenCloseLiskov/02.Blobs-Skeleton/src/models/behavors/AbstractBehavior.java" />
+      <change beforePath="$PROJECT_DIR$/ExercisesOpenCloseLiskov/02.Blobs-Skeleton/src/models/behavors/Aggressive.java" afterPath="$PROJECT_DIR$/ExercisesOpenCloseLiskov/02.Blobs-Skeleton/src/models/behavors/Aggressive.java" />
+      <change beforePath="$PROJECT_DIR$/ExercisesOpenCloseLiskov/02.Blobs-Skeleton/src/models/behavors/Inflated.java" afterPath="$PROJECT_DIR$/ExercisesOpenCloseLiskov/02.Blobs-Skeleton/src/models/behavors/Inflated.java" />
+      <change beforePath="$PROJECT_DIR$/ExercisesReflection/src/BlackBoxInteger/BlackBoxInt.java" afterPath="$PROJECT_DIR$/ExercisesReflection/src/BlackBoxInteger/BlackBoxInt.java" />
+      <change beforePath="$PROJECT_DIR$/ExercisesReflection/src/HarvestingFields/RichSoilLand.java" afterPath="$PROJECT_DIR$/ExercisesReflection/src/HarvestingFields/RichSoilLand.java" />
+      <change beforePath="$PROJECT_DIR$/ExercisesReflection/src/pr0304Barracks/Main.java" afterPath="$PROJECT_DIR$/ExercisesReflection/src/pr0304Barracks/Main.java" />
+      <change beforePath="$PROJECT_DIR$/ExercisesReflection/src/pr0304Barracks/contracts/Attacker.java" afterPath="$PROJECT_DIR$/ExercisesReflection/src/pr0304Barracks/contracts/Attacker.java" />
+      <change beforePath="$PROJECT_DIR$/ExercisesReflection/src/pr0304Barracks/contracts/CommandInterpreter.java" afterPath="$PROJECT_DIR$/ExercisesReflection/src/pr0304Barracks/contracts/CommandInterpreter.java" />
+      <change beforePath="$PROJECT_DIR$/ExercisesReflection/src/pr0304Barracks/contracts/Destroyable.java" afterPath="$PROJECT_DIR$/ExercisesReflection/src/pr0304Barracks/contracts/Destroyable.java" />
+      <change beforePath="$PROJECT_DIR$/ExercisesReflection/src/pr0304Barracks/contracts/Executable.java" afterPath="$PROJECT_DIR$/ExercisesReflection/src/pr0304Barracks/contracts/Executable.java" />
+      <change beforePath="$PROJECT_DIR$/ExercisesReflection/src/pr0304Barracks/contracts/Repository.java" afterPath="$PROJECT_DIR$/ExercisesReflection/src/pr0304Barracks/contracts/Repository.java" />
+      <change beforePath="$PROJECT_DIR$/ExercisesReflection/src/pr0304Barracks/contracts/Runnable.java" afterPath="$PROJECT_DIR$/ExercisesReflection/src/pr0304Barracks/contracts/Runnable.java" />
+      <change beforePath="$PROJECT_DIR$/ExercisesReflection/src/pr0304Barracks/contracts/Unit.java" afterPath="$PROJECT_DIR$/ExercisesReflection/src/pr0304Barracks/contracts/Unit.java" />
+      <change beforePath="$PROJECT_DIR$/ExercisesReflection/src/pr0304Barracks/contracts/UnitFactory.java" afterPath="$PROJECT_DIR$/ExercisesReflection/src/pr0304Barracks/contracts/UnitFactory.java" />
+      <change beforePath="$PROJECT_DIR$/ExercisesReflection/src/pr0304Barracks/core/Engine.java" afterPath="$PROJECT_DIR$/ExercisesReflection/src/pr0304Barracks/core/Engine.java" />
+      <change beforePath="$PROJECT_DIR$/ExercisesReflection/src/pr0304Barracks/core/factories/UnitFactoryImpl.java" afterPath="$PROJECT_DIR$/ExercisesReflection/src/pr0304Barracks/core/factories/UnitFactoryImpl.java" />
+      <change beforePath="$PROJECT_DIR$/ExercisesReflection/src/pr0304Barracks/data/UnitRepository.java" afterPath="$PROJECT_DIR$/ExercisesReflection/src/pr0304Barracks/data/UnitRepository.java" />
+      <change beforePath="$PROJECT_DIR$/ExercisesReflection/src/pr0304Barracks/models/units/AbstractUnit.java" afterPath="$PROJECT_DIR$/ExercisesReflection/src/pr0304Barracks/models/units/AbstractUnit.java" />
+      <change beforePath="$PROJECT_DIR$/ExercisesReflection/src/pr0304Barracks/models/units/Archer.java" afterPath="$PROJECT_DIR$/ExercisesReflection/src/pr0304Barracks/models/units/Archer.java" />
+      <change beforePath="$PROJECT_DIR$/ExercisesReflection/src/pr0304Barracks/models/units/Pikeman.java" afterPath="$PROJECT_DIR$/ExercisesReflection/src/pr0304Barracks/models/units/Pikeman.java" />
+      <change beforePath="$PROJECT_DIR$/ExercisesReflection/src/pr0304Barracks/models/units/Swordsman.java" afterPath="$PROJECT_DIR$/ExercisesReflection/src/pr0304Barracks/models/units/Swordsman.java" />
+      <change beforePath="$PROJECT_DIR$/LabUnitTest/src/main/java/rpg_lab/Axe.java" afterPath="$PROJECT_DIR$/LabUnitTest/src/main/java/rpg_lab/Axe.java" />
+      <change beforePath="$PROJECT_DIR$/LabUnitTest/src/main/java/rpg_lab/Dummy.java" afterPath="$PROJECT_DIR$/LabUnitTest/src/main/java/rpg_lab/Dummy.java" />
+      <change beforePath="$PROJECT_DIR$/LabUnitTest/src/main/java/rpg_lab/Hero.java" afterPath="$PROJECT_DIR$/LabUnitTest/src/main/java/rpg_lab/Hero.java" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/LabUnitTest/target/" />
@@ -91,105 +128,101 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
-      <file leaf-file-name="Blob.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/ExercisesOpenCloseLiskov/02.Blobs-Skeleton/src/models/Blob.java">
+      <file leaf-file-name="Observer.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/exercise_event_and_communication/src/kings_gambit/contracts/Observer.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="304">
-              <caret line="88" column="30" lean-forward="true" selection-start-line="88" selection-start-column="30" selection-end-line="88" selection-end-column="30" />
+            <state relative-caret-position="320">
+              <caret line="16" column="10" lean-forward="false" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
               <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#780#781#0" expanded="true" />
-                <element signature="e#821#822#0" expanded="true" />
-                <element signature="e#1328#1329#0" expanded="true" />
-                <element signature="e#1377#1378#0" expanded="true" />
+                <element signature="e#178#179#0" expanded="true" />
+                <element signature="e#210#211#0" expanded="true" />
+                <element signature="e#254#255#0" expanded="true" />
+                <element signature="e#286#287#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Blobplode.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ExercisesOpenCloseLiskov/02.Blobs-Skeleton/src/models/attacks/Blobplode.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractAttack.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ExercisesOpenCloseLiskov/02.Blobs-Skeleton/src/models/attacks/AbstractAttack.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
-              <folding />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="PutridFart.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ExercisesOpenCloseLiskov/02.Blobs-Skeleton/src/models/attacks/PutridFart.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="AbstractBehavior.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ExercisesOpenCloseLiskov/02.Blobs-Skeleton/src/models/behavors/AbstractBehavior.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="40">
-              <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Aggressive.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ExercisesOpenCloseLiskov/02.Blobs-Skeleton/src/models/behavors/Aggressive.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="480">
-              <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Inflated.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ExercisesOpenCloseLiskov/02.Blobs-Skeleton/src/models/behavors/Inflated.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="33" column="1" lean-forward="false" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Attack.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ExercisesOpenCloseLiskov/02.Blobs-Skeleton/src/interfaces/Attack.java">
+      <file leaf-file-name="Footman.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/exercise_event_and_communication/src/kings_gambit/Post/Footman.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="100">
-              <caret line="5" column="45" lean-forward="false" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+              <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+              <folding>
+                <element signature="e#141#142#0" expanded="true" />
+                <element signature="e#168#169#0" expanded="true" />
+                <element signature="e#210#211#0" expanded="true" />
+                <element signature="e#289#290#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="RoyalGuard.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/exercise_event_and_communication/src/kings_gambit/Post/RoyalGuard.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="100">
+              <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
               <folding />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Behavior.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/ExercisesOpenCloseLiskov/02.Blobs-Skeleton/src/interfaces/Behavior.java">
+      <file leaf-file-name="Killable.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/exercise_event_and_communication/src/kings_gambit/contracts/Killable.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="140">
-              <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+            <state relative-caret-position="60">
+              <caret line="3" column="33" lean-forward="false" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="CourtPost.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/exercise_event_and_communication/src/kings_gambit/contracts/CourtPost.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+              <folding />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="King.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/exercise_event_and_communication/src/kings_gambit/Post/King.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="300">
+              <caret line="23" column="66" lean-forward="true" selection-start-line="23" selection-start-column="66" selection-end-line="23" selection-end-column="66" />
+              <folding>
+                <element signature="imports" expanded="true" />
+                <element signature="e#477#478#0" expanded="true" />
+                <element signature="e#537#538#0" expanded="true" />
+                <element signature="e#776#777#0" expanded="true" />
+                <element signature="e#808#809#0" expanded="true" />
+                <element signature="e#867#868#0" expanded="true" />
+                <element signature="e#914#915#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Main.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/exercise_event_and_communication/src/kings_gambit/Main.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="33" column="30" lean-forward="true" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Attackable.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/exercise_event_and_communication/src/kings_gambit/contracts/Attackable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="60">
+              <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
               <folding />
             </state>
           </provider>
@@ -200,8 +233,10 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
-        <option value="Interface" />
         <option value="JUnit4 Test Class" />
+        <option value="Enum" />
+        <option value="FxmlFile" />
+        <option value="Interface" />
         <option value="Class" />
       </list>
     </option>
@@ -210,6 +245,12 @@
     <findStrings>
       <find>Fields</find>
     </findStrings>
+    <replaceStrings>
+      <replace />
+    </replaceStrings>
+    <dirStrings>
+      <dir>$PROJECT_DIR$/ExercicesInterfaceSeg/src/models/boats</dir>
+    </dirStrings>
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
@@ -222,57 +263,57 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/LabGenerics/src/ListUtils/ListUtils.java" />
-        <option value="$PROJECT_DIR$/Exercises: Generics/src/GenericBox/Main.java" />
-        <option value="$PROJECT_DIR$/Exercises: Generics/src/GenericBox/Box.java" />
-        <option value="$PROJECT_DIR$/ExercisesGenerics/src/GenericSwap/Swap.java" />
-        <option value="$PROJECT_DIR$/ExercisesGenerics/src/GenericSwap/Main.java" />
-        <option value="$PROJECT_DIR$/ExercisesGenerics/src/GenericBox/Box.java" />
-        <option value="$PROJECT_DIR$/ExercisesGenerics/src/GenericBox/Main.java" />
-        <option value="$PROJECT_DIR$/ExercisesGenerics/src/CustomList.java" />
-        <option value="$PROJECT_DIR$/ExercisesGenerics/src/CustomList/CustomList.java" />
-        <option value="$PROJECT_DIR$/ExercisesGenerics/src/CustomList/Main.java" />
-        <option value="$PROJECT_DIR$/ExercisesReflection/src/HarvestingFields/RichSoilLand.java" />
-        <option value="$PROJECT_DIR$/ExercisesReflection/src/HarvestingFields/Main.java" />
-        <option value="$PROJECT_DIR$/ExercisesReflection/src/BlackBoxInteger/BlackBoxInt.java" />
-        <option value="$PROJECT_DIR$/ExercisesReflection/src/BlackBoxInteger/Main.java" />
-        <option value="$PROJECT_DIR$/ExercisesReflection/src/BarracksWars/pr0304Barracks/contracts/Attacker.java" />
-        <option value="$PROJECT_DIR$/ExercisesReflection/src/BarracksWars/pr0304Barracks/contracts/CommandInterpreter.java" />
-        <option value="$PROJECT_DIR$/ExercisesReflection/src/BarracksWars/pr0304Barracks/contracts/Executable.java" />
-        <option value="$PROJECT_DIR$/ExercisesReflection/src/BarracksWars/pr0304Barracks/contracts/Destroyable.java" />
-        <option value="$PROJECT_DIR$/ExercisesReflection/src/BarracksWars/pr0304Barracks/contracts/Repository.java" />
-        <option value="$PROJECT_DIR$/ExercisesReflection/src/BarracksWars/pr0304Barracks/contracts/Runnable.java" />
-        <option value="$PROJECT_DIR$/ExercisesReflection/src/BarracksWars/pr0304Barracks/contracts/Unit.java" />
-        <option value="$PROJECT_DIR$/ExercisesReflection/src/BarracksWars/pr0304Barracks/contracts/UnitFactory.java" />
-        <option value="$PROJECT_DIR$/ExercisesReflection/src/BarracksWars/pr0304Barracks/core/factories/UnitFactoryImpl.java" />
-        <option value="$PROJECT_DIR$/ExercisesReflection/src/BarracksWars/pr0304Barracks/core/Engine.java" />
-        <option value="$PROJECT_DIR$/ExercisesReflection/src/BarracksWars/pr0304Barracks/Main.java" />
-        <option value="$PROJECT_DIR$/ExercisesReflection/src/BarracksWars/pr0304Barracks/data/UnitRepository.java" />
-        <option value="$PROJECT_DIR$/ExercisesReflection/src/pr0304Barracks/core/factories/UnitFactoryImpl.java" />
-        <option value="$PROJECT_DIR$/ExercisesReflection/src/pr0304Barracks/models/units/Horseman.java" />
-        <option value="$PROJECT_DIR$/ExercisesReflection/src/pr0304Barracks/models/units/Gunner.java" />
-        <option value="$PROJECT_DIR$/ExercisesReflection/src/pr0304Barracks/core/Engine.java" />
-        <option value="$PROJECT_DIR$/ExercisesReflection/src/pr0304Barracks/data/UnitRepository.java" />
-        <option value="$PROJECT_DIR$/ExercisesReflection/src/pr0304Barracks/contracts/Repository.java" />
-        <option value="$PROJECT_DIR$/LabReflection/src/Reflection/Reflection.java" />
-        <option value="$PROJECT_DIR$/LabReflection/src/Reflection/Main.java" />
-        <option value="$PROJECT_DIR$/LabUnitTest/pom.xml" />
-        <option value="$PROJECT_DIR$/LabUnitTest/src/test/java/rpg_tests/AxeTests.java" />
-        <option value="$PROJECT_DIR$/LabUnitTest/src/test/java/rpg_lab/DummyTest.java" />
-        <option value="$PROJECT_DIR$/ExercisesReflection/src/pr0304Barracks/core/commands/Command.java" />
-        <option value="$PROJECT_DIR$/ExercisesReflection/src/pr0304Barracks/core/commands/AddCommand.java" />
-        <option value="$PROJECT_DIR$/ExercisesReflection/src/pr0304Barracks/core/commands/FightCommand.java" />
-        <option value="$PROJECT_DIR$/ExercisesReflection/src/pr0304Barracks/core/commands/ReportCommand.java" />
-        <option value="$PROJECT_DIR$/ExercisesReflection/src/pr0304Barracks/core/commands/RetireCommand.java" />
-        <option value="$PROJECT_DIR$/ExercisesReflection/src/pr0304Barracks/Main.java" />
-        <option value="$PROJECT_DIR$/ExercisesOpenCloseLiskov/02.Blobs-Skeleton/src/interfaces/Attack.java" />
-        <option value="$PROJECT_DIR$/ExercisesOpenCloseLiskov/02.Blobs-Skeleton/src/interfaces/Behavior.java" />
-        <option value="$PROJECT_DIR$/ExercisesOpenCloseLiskov/02.Blobs-Skeleton/src/models/behavors/Aggressive.java" />
-        <option value="$PROJECT_DIR$/ExercisesOpenCloseLiskov/02.Blobs-Skeleton/src/models/behavors/Inflated.java" />
-        <option value="$PROJECT_DIR$/ExercisesOpenCloseLiskov/02.Blobs-Skeleton/src/models/behavors/AbstractBehavior.java" />
-        <option value="$PROJECT_DIR$/ExercisesOpenCloseLiskov/02.Blobs-Skeleton/src/models/attacks/PutridFart.java" />
-        <option value="$PROJECT_DIR$/ExercisesOpenCloseLiskov/02.Blobs-Skeleton/src/models/attacks/Blobplode.java" />
-        <option value="$PROJECT_DIR$/ExercisesOpenCloseLiskov/02.Blobs-Skeleton/src/models/Blob.java" />
+        <option value="$PROJECT_DIR$/lab_object_communication_pattern/src/LogType.java" />
+        <option value="$PROJECT_DIR$/lab_object_communication_pattern/src/CombatLogger.java" />
+        <option value="$PROJECT_DIR$/lab_object_communication_pattern/src/EventLogger.java" />
+        <option value="$PROJECT_DIR$/lab_object_communication_pattern/src/Handler.java" />
+        <option value="$PROJECT_DIR$/lab_object_communication_pattern/src/enums/LogType.java" />
+        <option value="$PROJECT_DIR$/lab_object_communication_pattern/src/interfaces/Handler.java" />
+        <option value="$PROJECT_DIR$/lab_object_communication_pattern/src/loggers/CombatLogger.java" />
+        <option value="$PROJECT_DIR$/lab_object_communication_pattern/src/loggers/EventLogger.java" />
+        <option value="$PROJECT_DIR$/lab_object_communication_pattern/src/loggers/Logger.java" />
+        <option value="$PROJECT_DIR$/lab_object_communication_pattern/src/interfaces/Target.java" />
+        <option value="$PROJECT_DIR$/lab_object_communication_pattern/src/interfaces/Command.java" />
+        <option value="$PROJECT_DIR$/lab_object_communication_pattern/src/Commands/TargetCommand.java" />
+        <option value="$PROJECT_DIR$/lab_object_communication_pattern/src/Commands/AttackCommand.java" />
+        <option value="$PROJECT_DIR$/lab_object_communication_pattern/src/interfaces/Executor.java" />
+        <option value="$PROJECT_DIR$/lab_object_communication_pattern/src/Commands/CommandExecutor.java" />
+        <option value="$PROJECT_DIR$/lab_object_communication_pattern/src/GroupAttack.java" />
+        <option value="$PROJECT_DIR$/lab_object_communication_pattern/src/Commands/GroupTarget.java" />
+        <option value="$PROJECT_DIR$/lab_object_communication_pattern/src/Commands/GroupAttack.java" />
+        <option value="$PROJECT_DIR$/lab_object_communication_pattern/src/interfaces/Observer.java" />
+        <option value="$PROJECT_DIR$/lab_object_communication_pattern/src/interfaces/Subject.java" />
+        <option value="$PROJECT_DIR$/lab_object_communication_pattern/src/interfaces/ObservableTarget.java" />
+        <option value="$PROJECT_DIR$/lab_object_communication_pattern/src/interfaces/Attacker.java" />
+        <option value="$PROJECT_DIR$/lab_object_communication_pattern/src/AbstractHero.java" />
+        <option value="$PROJECT_DIR$/lab_object_communication_pattern/src/interfaces/ObservableAttacker.java" />
+        <option value="$PROJECT_DIR$/lab_object_communication_pattern/src/Commands/CommandRegister.java" />
+        <option value="$PROJECT_DIR$/lab_object_communication_pattern/src/Commands/RegisterCommand.java" />
+        <option value="$PROJECT_DIR$/lab_object_communication_pattern/src/interfaces/AttackGroup.java" />
+        <option value="$PROJECT_DIR$/lab_object_communication_pattern/src/Group.java" />
+        <option value="$PROJECT_DIR$/lab_object_communication_pattern/src/Commands/GroupRegisterCommand.java" />
+        <option value="$PROJECT_DIR$/lab_object_communication_pattern/src/Main.java" />
+        <option value="$PROJECT_DIR$/lab_object_communication_pattern/src/Commands/GroupTargetCommand.java" />
+        <option value="$PROJECT_DIR$/lab_object_communication_pattern/src/Warrior.java" />
+        <option value="$PROJECT_DIR$/lab_object_communication_pattern/src/Dragon.java" />
+        <option value="$PROJECT_DIR$/exercise_event_and_communication/src/event_implementation/EventObject.java" />
+        <option value="$PROJECT_DIR$/exercise_event_and_communication/src/event_implementation/Event.java" />
+        <option value="$PROJECT_DIR$/exercise_event_and_communication/src/event_implementation/NameChangeListener.java" />
+        <option value="$PROJECT_DIR$/exercise_event_and_communication/src/event_implementation/NameChenge.java" />
+        <option value="$PROJECT_DIR$/exercise_event_and_communication/src/event_implementation/Disparcher.java" />
+        <option value="$PROJECT_DIR$/exercise_event_and_communication/src/event_implementation/Main.java" />
+        <option value="$PROJECT_DIR$/exercise_event_and_communication/src/event_implementation/Handler.java" />
+        <option value="$PROJECT_DIR$/exercise_event_and_communication/src/kings_gambit/Observer.java" />
+        <option value="$PROJECT_DIR$/exercise_event_and_communication/src/kings_gambit/Subject.java" />
+        <option value="$PROJECT_DIR$/exercise_event_and_communication/src/kings_gambit/contracts/courtPost.java" />
+        <option value="$PROJECT_DIR$/exercise_event_and_communication/src/kings_gambit/contracts/Attackable.java" />
+        <option value="$PROJECT_DIR$/exercise_event_and_communication/src/kings_gambit/contracts/CourtPost.java" />
+        <option value="$PROJECT_DIR$/exercise_event_and_communication/src/kings_gambit/contracts/Observer.java" />
+        <option value="$PROJECT_DIR$/exercise_event_and_communication/src/kings_gambit/contracts/Killable.java" />
+        <option value="$PROJECT_DIR$/exercise_event_and_communication/src/kings_gambit/Post/King.java" />
+        <option value="$PROJECT_DIR$/exercise_event_and_communication/src/kings_gambit/Post/RoyalGuard.java" />
+        <option value="$PROJECT_DIR$/exercise_event_and_communication/src/kings_gambit/Post/Footman.java" />
+        <option value="$PROJECT_DIR$/exercise_event_and_communication/src/kings_gambit/Main.java" />
       </list>
     </option>
   </component>
@@ -309,10 +350,8 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="Scratches" />
       <pane id="PackagesPane" />
       <pane id="AndroidView" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
@@ -320,23 +359,52 @@
               <item name="Java-OOP-Advanced" type="b2602c69:ProjectViewProjectNode" />
               <item name="Java-OOP-Advanced" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="Java-OOP-Advanced" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java-OOP-Advanced" type="462c0819:PsiDirectoryNode" />
+              <item name="exercise_event_and_communication" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java-OOP-Advanced" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java-OOP-Advanced" type="462c0819:PsiDirectoryNode" />
+              <item name="exercise_event_and_communication" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java-OOP-Advanced" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java-OOP-Advanced" type="462c0819:PsiDirectoryNode" />
+              <item name="exercise_event_and_communication" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="kings_gambit" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="Java-OOP-Advanced" type="b2602c69:ProjectViewProjectNode" />
+              <item name="Java-OOP-Advanced" type="462c0819:PsiDirectoryNode" />
+              <item name="exercise_event_and_communication" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="kings_gambit" type="462c0819:PsiDirectoryNode" />
+              <item name="Post" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="Scratches" />
     </panes>
   </component>
   <component name="PropertiesComponent">
     <property name="nodejs_interpreter_path" value="/usr/bin/node" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
-    <property name="settings.editor.selected.configurable" value="preferences.lookFeel" />
+    <property name="settings.editor.selected.configurable" value="preferences.editor" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$/LabReflection" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="com.intellij.testIntegration.createTest.CreateTestDialog.defaultLibrary" value="JUnit4" />
     <property name="last_directory_selection" value="$PROJECT_DIR$/ExercisesOpenCloseLiskov/src" />
+    <property name="settings.editor.splitter.proportion" value="0.2640076" />
   </component>
   <component name="RecentsManager">
     <key name="CreateTestDialog.RecentsKey">
@@ -345,14 +413,23 @@
     <key name="CreateTestDialog.Recents.Supers">
       <recent name="" />
     </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/lab_object_communication_pattern" />
+      <recent name="$PROJECT_DIR$/ExercicesInterfaceSeg" />
+      <recent name="$PROJECT_DIR$/ExercisesOpenCloseLiskov" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/ExercicesInterfaceSeg/src/contracts" />
+      <recent name="$PROJECT_DIR$/ExercicesInterfaceSeg/src" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="kings_gambit.Post" />
       <recent name="models.attacks" />
       <recent name="models.behavors" />
       <recent name="pr0304Barracks.models.units" />
     </key>
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="$PROJECT_DIR$/ExercicesInterfaceSeg" />
-      <recent name="$PROJECT_DIR$/ExercisesOpenCloseLiskov" />
+    <key name="CreateClassDialog.RecentsKey">
+      <recent name="event_implementation" />
     </key>
   </component>
   <component name="RunDashboard">
@@ -367,13 +444,60 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.DummyTest.getHealthTest">
+  <component name="RunManager" selected="Application.Main (2)">
     <configuration default="true" type="Applet" factoryName="Applet">
       <option name="HTML_USED" value="false" />
       <option name="WIDTH" value="400" />
       <option name="HEIGHT" value="300" />
       <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
       <module />
+    </configuration>
+    <configuration name="Main (1)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="lab_object_communication_pattern" />
+      <envs />
+    </configuration>
+    <configuration name="Main (2)" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
+        <pattern>
+          <option name="PATTERN" value="event_implementation.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="MAIN_CLASS_NAME" value="event_implementation.Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="exercise_event_and_communication" />
+      <envs />
+    </configuration>
+    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <option name="MAIN_CLASS_NAME" value="Main" />
+      <option name="VM_PARAMETERS" />
+      <option name="PROGRAM_PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="ENABLE_SWING_INSPECTOR" value="false" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <module name="ExercicesInterfaceSeg" />
+      <envs />
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
@@ -388,81 +512,6 @@
       <option name="PASS_PARENT_ENVS" value="true" />
       <module name="" />
       <envs />
-    </configuration>
-    <configuration name="AxeTests" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="rpg_tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="LabUnitTest" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="rpg_tests" />
-      <option name="MAIN_CLASS_NAME" value="rpg_tests.AxeTests" />
-      <option name="METHOD_NAME" />
-      <option name="TEST_OBJECT" value="class" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="AxeTests.brokenWeaponCantAttack" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="rpg_tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="LabUnitTest" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="rpg_tests" />
-      <option name="MAIN_CLASS_NAME" value="rpg_tests.AxeTests" />
-      <option name="METHOD_NAME" value="brokenWeaponCantAttack" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
-    </configuration>
-    <configuration name="AxeTests.weaponAttackLosesDurabilityTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
-        <pattern>
-          <option name="PATTERN" value="rpg_tests.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <module name="LabUnitTest" />
-      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
-      <option name="ALTERNATIVE_JRE_PATH" />
-      <option name="PACKAGE_NAME" value="rpg_tests" />
-      <option name="MAIN_CLASS_NAME" value="rpg_tests.AxeTests" />
-      <option name="METHOD_NAME" value="weaponAttackLosesDurabilityTest" />
-      <option name="TEST_OBJECT" value="method" />
-      <option name="VM_PARAMETERS" value="-ea" />
-      <option name="PARAMETERS" />
-      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
-      <option name="ENV_VARIABLES" />
-      <option name="PASS_PARENT_ENVS" value="true" />
-      <option name="TEST_SEARCH_SCOPE">
-        <value defaultName="singleModule" />
-      </option>
-      <envs />
-      <patterns />
     </configuration>
     <configuration name="DummyTest.getHealth" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea">
@@ -575,19 +624,19 @@
       <predefined_log_file id="idea.log" enabled="true" />
     </configuration>
     <list size="5">
-      <item index="0" class="java.lang.String" itemvalue="JUnit.AxeTests" />
-      <item index="1" class="java.lang.String" itemvalue="JUnit.AxeTests.brokenWeaponCantAttack" />
-      <item index="2" class="java.lang.String" itemvalue="JUnit.AxeTests.weaponAttackLosesDurabilityTest" />
-      <item index="3" class="java.lang.String" itemvalue="JUnit.DummyTest.getHealth" />
-      <item index="4" class="java.lang.String" itemvalue="JUnit.DummyTest.getHealthTest" />
+      <item index="0" class="java.lang.String" itemvalue="JUnit.DummyTest.getHealth" />
+      <item index="1" class="java.lang.String" itemvalue="JUnit.DummyTest.getHealthTest" />
+      <item index="2" class="java.lang.String" itemvalue="Application.Main" />
+      <item index="3" class="java.lang.String" itemvalue="Application.Main (1)" />
+      <item index="4" class="java.lang.String" itemvalue="Application.Main (2)" />
     </list>
     <recent_temporary>
       <list size="5">
-        <item index="0" class="java.lang.String" itemvalue="JUnit.DummyTest.getHealthTest" />
-        <item index="1" class="java.lang.String" itemvalue="JUnit.DummyTest.getHealth" />
-        <item index="2" class="java.lang.String" itemvalue="JUnit.AxeTests.weaponAttackLosesDurabilityTest" />
-        <item index="3" class="java.lang.String" itemvalue="JUnit.AxeTests" />
-        <item index="4" class="java.lang.String" itemvalue="JUnit.AxeTests.brokenWeaponCantAttack" />
+        <item index="0" class="java.lang.String" itemvalue="Application.Main (2)" />
+        <item index="1" class="java.lang.String" itemvalue="Application.Main (1)" />
+        <item index="2" class="java.lang.String" itemvalue="Application.Main" />
+        <item index="3" class="java.lang.String" itemvalue="JUnit.DummyTest.getHealthTest" />
+        <item index="4" class="java.lang.String" itemvalue="JUnit.DummyTest.getHealth" />
       </list>
     </recent_temporary>
   </component>
@@ -632,7 +681,14 @@
       <option name="project" value="LOCAL" />
       <updated>1510812618380</updated>
     </task>
-    <option name="localTasksCounter" value="4" />
+    <task id="LOCAL-00004" summary="Problems for SOLID Exercises">
+      <created>1512907188182</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1512907188183</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -680,27 +736,27 @@
     </todo-panel>
   </component>
   <component name="ToolWindowManager">
-    <frame x="0" y="0" width="1928" height="1055" extended-state="6" />
+    <frame x="0" y="0" width="1920" height="1051" extended-state="6" />
     <layout>
       <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291714" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
-      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3247768" sideWeight="0.4878788" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32435465" sideWeight="0.4878788" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24027073" sideWeight="0.5181818" order="7" side_tool="true" content_ui="tabs" />
       <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23841807" sideWeight="0.48181817" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.24130191" sideWeight="0.48181817" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32994923" sideWeight="0.4909091" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
       <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
-      <window_info id="Project" active="true" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2008547" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
       <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
       <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
       <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
-      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3993232" sideWeight="0.4909091" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.39842874" sideWeight="0.4909091" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="true" content_ui="tabs" />
       <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
       <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
@@ -708,8 +764,37 @@
       <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
       <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
       <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
-      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299435" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32884398" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
     </layout>
+    <layout-to-restore>
+      <window_info id="Palette" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Cvs" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Message" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Commander" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="0" side_tool="false" content_ui="tabs" />
+      <window_info id="Event Log" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.24027073" sideWeight="0.5181818" order="7" side_tool="true" content_ui="tabs" />
+      <window_info id="Maven Projects" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Tool" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="Hierarchy" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="2" side_tool="false" content_ui="combo" />
+      <window_info id="Database" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Structure" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Ant Build" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.25" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="UI Designer" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="4" side_tool="false" content_ui="tabs" />
+      <window_info id="Debug" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3993232" sideWeight="0.4909091" order="3" side_tool="false" content_ui="tabs" />
+      <window_info id="TODO" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3291714" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Messages" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.3247768" sideWeight="0.4878788" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Palette&#9;" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="false" content_ui="tabs" />
+      <window_info id="Image Layers" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Capture Analysis" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="7" side_tool="false" content_ui="tabs" />
+      <window_info id="Inspection" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.4" sideWeight="0.5" order="5" side_tool="false" content_ui="tabs" />
+      <window_info id="Run" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.23841807" sideWeight="0.48181817" order="2" side_tool="false" content_ui="tabs" />
+      <window_info id="Version Control" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.32994923" sideWeight="0.4909091" order="9" side_tool="false" content_ui="tabs" />
+      <window_info id="Terminal" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="10" side_tool="false" content_ui="tabs" />
+      <window_info id="Project" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="true" show_stripe_button="true" weight="0.2008547" sideWeight="0.5" order="0" side_tool="false" content_ui="combo" />
+      <window_info id="Find" active="false" anchor="bottom" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.3299435" sideWeight="0.5" order="1" side_tool="false" content_ui="tabs" />
+      <window_info id="Theme Preview" active="false" anchor="right" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="8" side_tool="false" content_ui="tabs" />
+      <window_info id="Favorites" active="false" anchor="left" auto_hide="false" internal_type="DOCKED" type="DOCKED" visible="false" show_stripe_button="true" weight="0.33" sideWeight="0.5" order="6" side_tool="true" content_ui="tabs" />
+    </layout-to-restore>
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
@@ -732,293 +817,465 @@
           <line>19</line>
           <properties />
         </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/exercise_event_and_communication/src/event_implementation/Main.java</url>
+          <line>14</line>
+          <properties />
+          <option name="timeStamp" value="9" />
+        </line-breakpoint>
       </breakpoints>
-      <option name="time" value="3" />
+      <option name="time" value="10" />
     </breakpoint-manager>
     <watches-manager />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/ExercisesReflection/src/BarracksWars/pr0304Barracks/contracts/Destroyable.java" />
-    <entry file="file://$PROJECT_DIR$/ExercisesReflection/src/BarracksWars/pr0304Barracks/contracts/Executable.java" />
-    <entry file="file://$PROJECT_DIR$/ExercisesReflection/src/BarracksWars/pr0304Barracks/contracts/Repository.java" />
-    <entry file="file://$PROJECT_DIR$/ExercisesReflection/src/BarracksWars/pr0304Barracks/contracts/Runnable.java" />
-    <entry file="file://$PROJECT_DIR$/ExercisesReflection/src/BarracksWars/pr0304Barracks/contracts/Unit.java" />
-    <entry file="file://$PROJECT_DIR$/ExercisesReflection/src/BarracksWars/pr0304Barracks/contracts/UnitFactory.java" />
-    <entry file="file://$PROJECT_DIR$/ExercisesReflection/src/BarracksWars/pr0304Barracks/contracts/CommandInterpreter.java" />
-    <entry file="file://$PROJECT_DIR$/ExercisesReflection/src/BarracksWars/pr0304Barracks/core/Engine.java" />
-    <entry file="file://$PROJECT_DIR$/ExercisesReflection/src/BarracksWars/pr0304Barracks/core/factories/UnitFactoryImpl.java" />
-    <entry file="file://$PROJECT_DIR$/ExercisesReflection/src/BarracksWars/pr0304Barracks/Main.java" />
-    <entry file="file://$PROJECT_DIR$/ExercisesReflection/src/BarracksWars/pr0304Barracks/data/UnitRepository.java" />
-    <entry file="file://$PROJECT_DIR$/ExercisesReflection/src/pr0304Barracks/contracts/Destroyable.java">
+    <entry file="file://$PROJECT_DIR$/ExercicesInterfaceSeg/src/io/ConsoleInputReader.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        <state relative-caret-position="320">
+          <caret line="22" column="0" lean-forward="false" selection-start-line="22" selection-start-column="0" selection-end-line="22" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ExercisesReflection/src/pr0304Barracks/models/units/Archer.java">
+    <entry file="file://$PROJECT_DIR$/ExercicesInterfaceSeg/src/Core/Engine.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="38" lean-forward="false" selection-start-line="2" selection-start-column="20" selection-end-line="2" selection-end-column="40" />
+        <state relative-caret-position="700">
+          <caret line="42" column="0" lean-forward="false" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ExercisesReflection/src/pr0304Barracks/models/units/Horseman.java">
+    <entry file="file://$PROJECT_DIR$/ExercicesInterfaceSeg/src/Utility/Constants.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="10" column="0" lean-forward="false" selection-start-line="10" selection-start-column="0" selection-end-line="10" selection-end-column="0" />
+        <state relative-caret-position="540">
+          <caret line="27" column="59" lean-forward="false" selection-start-line="27" selection-start-column="59" selection-end-line="27" selection-end-column="59" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ExercisesReflection/src/pr0304Barracks/models/units/Gunner.java">
+    <entry file="file://$PROJECT_DIR$/ExercicesInterfaceSeg/src/contracts/Boat.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="7" column="42" lean-forward="false" selection-start-line="7" selection-start-column="42" selection-end-line="7" selection-end-column="42" />
+        <state relative-caret-position="240">
+          <caret line="12" column="19" lean-forward="false" selection-start-line="12" selection-start-column="19" selection-end-line="12" selection-end-column="19" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ExercisesReflection/src/pr0304Barracks/contracts/Executable.java">
+    <entry file="file://$PROJECT_DIR$/ExercicesInterfaceSeg/src/models/boats/PowerBoat.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+        <state relative-caret-position="460">
+          <caret line="26" column="17" lean-forward="false" selection-start-line="25" selection-start-column="6" selection-end-line="28" selection-end-column="7" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ExercisesReflection/src/pr0304Barracks/models/units/AbstractUnit.java">
+    <entry file="file://$PROJECT_DIR$/ExercicesInterfaceSeg/src/models/boats/BaseBoat.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="660">
+          <caret line="43" column="5" lean-forward="false" selection-start-line="43" selection-start-column="5" selection-end-line="43" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/ExercicesInterfaceSeg/src/controllers/BoatSimulatorCtrl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="141" column="34" lean-forward="false" selection-start-line="141" selection-start-column="34" selection-end-line="141" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab_object_communication_pattern/src/interfaces/Target.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab_object_communication_pattern/src/enums/LogType.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="12" lean-forward="false" selection-start-line="2" selection-start-column="12" selection-end-line="2" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab_object_communication_pattern/src/interfaces/Handler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="17" lean-forward="false" selection-start-line="4" selection-start-column="17" selection-end-line="4" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab_object_communication_pattern/src/loggers/CombatLogger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab_object_communication_pattern/src/loggers/EventLogger.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="76">
+          <caret line="4" column="13" lean-forward="false" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab_object_communication_pattern/src/loggers/Logger.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
           <caret line="4" column="22" lean-forward="false" selection-start-line="4" selection-start-column="22" selection-end-line="4" selection-end-column="22" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ExercisesReflection/src/pr0304Barracks/data/UnitRepository.java">
+    <entry file="file://$PROJECT_DIR$/lab_object_communication_pattern/src/interfaces/Command.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="40" column="59" lean-forward="false" selection-start-line="40" selection-start-column="59" selection-end-line="40" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LabReflection/src/Reflection/Reflection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="133">
-          <caret line="7" column="23" lean-forward="false" selection-start-line="7" selection-start-column="23" selection-end-line="7" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExercisesReflection/src/pr0304Barracks/core/Engine.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="392">
-          <caret line="62" column="23" lean-forward="false" selection-start-line="62" selection-start-column="23" selection-end-line="62" selection-end-column="23" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LabReflection/src/Reflection/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="6" column="35" lean-forward="false" selection-start-line="6" selection-start-column="35" selection-end-line="6" selection-end-column="35" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LabUnitTest/src/main/java/rpg_lab/Axe.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="13" lean-forward="false" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LabUnitTest/pom.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="399">
-          <caret line="21" column="10" lean-forward="false" selection-start-line="21" selection-start-column="10" selection-end-line="21" selection-end-column="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LabUnitTest/src/main/java/rpg_lab/Dummy.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="15" lean-forward="false" selection-start-line="2" selection-start-column="15" selection-end-line="2" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LabUnitTest/src/test/java/rpg_lab/DummyTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="361">
-          <caret line="23" column="0" lean-forward="false" selection-start-line="23" selection-start-column="0" selection-end-line="23" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/LabUnitTest/src/test/java/rpg_tests/AxeTests.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="576">
-          <caret line="33" column="0" lean-forward="false" selection-start-line="33" selection-start-column="0" selection-end-line="33" selection-end-column="0" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExercisesReflection/src/pr0304Barracks/core/commands/Command.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="76">
-          <caret line="6" column="22" lean-forward="false" selection-start-line="6" selection-start-column="22" selection-end-line="6" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExercisesReflection/src/pr0304Barracks/contracts/Repository.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="12" column="4" lean-forward="false" selection-start-line="12" selection-start-column="4" selection-end-line="12" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExercisesReflection/src/pr0304Barracks/contracts/Unit.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExercisesReflection/src/pr0304Barracks/contracts/Attacker.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExercisesReflection/src/pr0304Barracks/contracts/UnitFactory.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="38">
-          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExercisesReflection/src/pr0304Barracks/core/commands/FightCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="114">
-          <caret line="7" column="4" lean-forward="false" selection-start-line="7" selection-start-column="4" selection-end-line="7" selection-end-column="4" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExercisesReflection/src/pr0304Barracks/core/commands/AddCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="0">
-          <caret line="10" column="29" lean-forward="false" selection-start-line="9" selection-start-column="4" selection-end-line="10" selection-end-column="36" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExercisesReflection/src/pr0304Barracks/core/commands/ReportCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="16" column="22" lean-forward="false" selection-start-line="16" selection-start-column="22" selection-end-line="16" selection-end-column="22" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExercisesReflection/src/pr0304Barracks/core/commands/RetireCommand.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="152">
-          <caret line="11" column="18" lean-forward="false" selection-start-line="11" selection-start-column="18" selection-end-line="11" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExercisesOpenCloseLiskov/src/Logger.java" />
-    <entry file="file://$PROJECT_DIR$/ExercisesReflection/src/pr0304Barracks/Main.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="228">
-          <caret line="21" column="15" lean-forward="false" selection-start-line="21" selection-start-column="15" selection-end-line="21" selection-end-column="15" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExercisesOpenCloseLiskov/src/Utility/Constants.java" />
-    <entry file="file://$PROJECT_DIR$/ExercisesOpenCloseLiskov/src/exeptions/DuplicateModelException.java" />
-    <entry file="file://$PROJECT_DIR$/ExercisesOpenCloseLiskov/src/enumeration/EngineType.java" />
-    <entry file="file://$PROJECT_DIR$/ExercisesOpenCloseLiskov/src/Main.java" />
-    <entry file="file://$PROJECT_DIR$/ExercisesReflection/src/pr0304Barracks/core/factories/UnitFactoryImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="14" column="20" lean-forward="false" selection-start-line="14" selection-start-column="20" selection-end-line="14" selection-end-column="20" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExercisesOpenCloseLiskov/02.Blobs-Skeleton/src/interfaces/Behavior.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="140">
-          <caret line="7" column="26" lean-forward="false" selection-start-line="7" selection-start-column="26" selection-end-line="7" selection-end-column="26" />
+        <state relative-caret-position="60">
+          <caret line="3" column="19" lean-forward="false" selection-start-line="3" selection-start-column="19" selection-end-line="3" selection-end-column="19" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ExercisesOpenCloseLiskov/02.Blobs-Skeleton/src/models/behavors/Inflated.java">
+    <entry file="file://$PROJECT_DIR$/ExercisesGenerics/src/CustomList/CustomList.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="33" column="1" lean-forward="false" selection-start-line="33" selection-start-column="1" selection-end-line="33" selection-end-column="1" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="80">
+          <caret line="5" column="13" lean-forward="false" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ExercisesOpenCloseLiskov/02.Blobs-Skeleton/src/interfaces/Attack.java">
+    <entry file="file://$PROJECT_DIR$/lab_object_communication_pattern/src/interfaces/Executor.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="39" lean-forward="false" selection-start-line="3" selection-start-column="39" selection-end-line="3" selection-end-column="39" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab_object_communication_pattern/src/interfaces/Observer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="14" lean-forward="false" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab_object_communication_pattern/src/interfaces/Target.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="100">
-          <caret line="5" column="45" lean-forward="false" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+          <caret line="5" column="1" lean-forward="false" selection-start-line="5" selection-start-column="1" selection-end-line="5" selection-end-column="1" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ExercisesOpenCloseLiskov/02.Blobs-Skeleton/src/models/behavors/Aggressive.java">
+    <entry file="file://$PROJECT_DIR$/lab_object_communication_pattern/src/interfaces/ObservableTarget.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="480">
-          <caret line="27" column="0" lean-forward="false" selection-start-line="27" selection-start-column="0" selection-end-line="27" selection-end-column="0" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExercisesOpenCloseLiskov/02.Blobs-Skeleton/src/models/attacks/Blobplode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" column="16" lean-forward="false" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
+        <state relative-caret-position="60">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ExercisesOpenCloseLiskov/02.Blobs-Skeleton/src/models/attacks/PutridFart.java">
+    <entry file="file://$PROJECT_DIR$/lab_object_communication_pattern/src/Commands/CommandExecutor.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" column="18" lean-forward="false" selection-start-line="5" selection-start-column="18" selection-end-line="5" selection-end-column="18" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
+        <state relative-caret-position="120">
+          <caret line="8" column="26" lean-forward="false" selection-start-line="8" selection-start-column="26" selection-end-line="8" selection-end-column="26" />
+          <folding />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/ExercisesOpenCloseLiskov/02.Blobs-Skeleton/src/models/behavors/AbstractBehavior.java">
+    <entry file="file://$PROJECT_DIR$/lab_object_communication_pattern/src/interfaces/ObservableAttacker.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="40">
-          <caret line="2" column="7" lean-forward="false" selection-start-line="2" selection-start-column="7" selection-end-line="2" selection-end-column="7" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExercisesOpenCloseLiskov/02.Blobs-Skeleton/src/models/Blob.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="304">
-          <caret line="88" column="30" lean-forward="true" selection-start-line="88" selection-start-column="30" selection-end-line="88" selection-end-column="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#780#781#0" expanded="true" />
-            <element signature="e#821#822#0" expanded="true" />
-            <element signature="e#1328#1329#0" expanded="true" />
-            <element signature="e#1377#1378#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/ExercisesOpenCloseLiskov/02.Blobs-Skeleton/src/models/attacks/AbstractAttack.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="5" column="22" lean-forward="false" selection-start-line="5" selection-start-column="22" selection-end-line="5" selection-end-column="22" />
+          <caret line="2" column="52" lean-forward="false" selection-start-line="2" selection-start-column="52" selection-end-line="2" selection-end-column="52" />
           <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab_object_communication_pattern/src/interfaces/Attacker.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="25" lean-forward="false" selection-start-line="2" selection-start-column="25" selection-end-line="2" selection-end-column="25" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab_object_communication_pattern/src/interfaces/AttackGroup.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="23" lean-forward="true" selection-start-line="5" selection-start-column="23" selection-end-line="5" selection-end-column="23" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab_object_communication_pattern/src/Commands/TargetCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="17" column="45" lean-forward="false" selection-start-line="17" selection-start-column="45" selection-end-line="17" selection-end-column="45" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab_object_communication_pattern/src/Commands/RegisterCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" column="8" lean-forward="false" selection-start-line="17" selection-start-column="8" selection-end-line="17" selection-end-column="8" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#390#391#0" expanded="true" />
+            <element signature="e#432#433#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab_object_communication_pattern/src/Commands/GroupRegisterCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="17" column="30" lean-forward="false" selection-start-line="17" selection-start-column="30" selection-end-line="17" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="false" />
+            <element signature="e#397#398#0" expanded="false" />
+            <element signature="e#443#444#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab_object_communication_pattern/src/Commands/AttackCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="14" column="31" lean-forward="false" selection-start-line="14" selection-start-column="31" selection-end-line="14" selection-end-column="31" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab_object_communication_pattern/src/Commands/GroupAttackCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="200">
+          <caret line="14" column="33" lean-forward="false" selection-start-line="14" selection-start-column="33" selection-end-line="14" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab_object_communication_pattern/src/Group.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="520">
+          <caret line="36" column="9" lean-forward="false" selection-start-line="36" selection-start-column="9" selection-end-line="36" selection-end-column="9" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab_object_communication_pattern/src/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="33" column="28" lean-forward="false" selection-start-line="33" selection-start-column="28" selection-end-line="33" selection-end-column="28" />
+          <folding>
+            <element signature="imports" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab_object_communication_pattern/src/Commands/GroupTargetCommand.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="19" column="5" lean-forward="false" selection-start-line="19" selection-start-column="5" selection-end-line="19" selection-end-column="5" />
+          <folding>
+            <element signature="e#442#443#0" expanded="false" />
+            <element signature="e#493#494#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab_object_communication_pattern/src/interfaces/Subject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="17" lean-forward="false" selection-start-line="2" selection-start-column="17" selection-end-line="2" selection-end-column="17" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab_object_communication_pattern/src/AbstractHero.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="7" column="64" lean-forward="false" selection-start-line="7" selection-start-column="64" selection-end-line="7" selection-end-column="64" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab_object_communication_pattern/src/Warrior.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="440">
+          <caret line="27" column="51" lean-forward="false" selection-start-line="27" selection-start-column="51" selection-end-line="27" selection-end-column="51" />
+          <folding>
+            <element signature="e#607#608#0" expanded="false" />
+            <element signature="e#639#640#0" expanded="false" />
+            <element signature="e#685#686#0" expanded="false" />
+            <element signature="e#744#745#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise_event_and_communication/src/event_implementation/Event.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="38" lean-forward="false" selection-start-line="2" selection-start-column="38" selection-end-line="2" selection-end-column="38" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise_event_and_communication/src/event_implementation/Disparcher.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="38" lean-forward="false" selection-start-line="5" selection-start-column="38" selection-end-line="5" selection-end-column="38" />
+          <folding>
+            <element signature="e#152#153#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise_event_and_communication/src/event_implementation/EventObject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="40">
+          <caret line="2" column="21" lean-forward="false" selection-start-line="2" selection-start-column="21" selection-end-line="2" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise_event_and_communication/src/event_implementation/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" column="9" lean-forward="false" selection-start-line="17" selection-start-column="9" selection-end-line="17" selection-end-column="9" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise_event_and_communication/src/event_implementation/NameChangeListener.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="30" lean-forward="true" selection-start-line="3" selection-start-column="30" selection-end-line="3" selection-end-column="30" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise_event_and_communication/src/event_implementation/NameChenge.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="36" lean-forward="false" selection-start-line="9" selection-start-column="36" selection-end-line="9" selection-end-column="36" />
+          <folding>
+            <element signature="e#132#133#0" expanded="true" />
+            <element signature="e#178#179#0" expanded="true" />
+            <element signature="e#250#251#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise_event_and_communication/src/event_implementation/Handler.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="12" column="59" lean-forward="false" selection-start-line="12" selection-start-column="59" selection-end-line="12" selection-end-column="59" />
+          <folding>
+            <element signature="e#161#162#0" expanded="true" />
+            <element signature="e#205#206#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/lab_object_communication_pattern/src/Dragon.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="20">
+          <caret line="1" column="27" lean-forward="false" selection-start-line="1" selection-start-column="27" selection-end-line="1" selection-end-column="27" />
+          <folding>
+            <element signature="e#1094#1095#0" expanded="false" />
+            <element signature="e#1138#1139#0" expanded="false" />
+            <element signature="e#1201#1202#0" expanded="false" />
+            <element signature="e#1248#1249#0" expanded="false" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise_event_and_communication/src/kings_gambit/Subject.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="0" lean-forward="false" selection-start-line="3" selection-start-column="0" selection-end-line="3" selection-end-column="0" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise_event_and_communication/src/kings_gambit/contracts/Attackable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="18" lean-forward="false" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise_event_and_communication/src/kings_gambit/contracts/CourtPost.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="21" lean-forward="false" selection-start-line="3" selection-start-column="21" selection-end-line="3" selection-end-column="21" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise_event_and_communication/src/kings_gambit/contracts/Observer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="16" column="10" lean-forward="false" selection-start-line="16" selection-start-column="10" selection-end-line="16" selection-end-column="10" />
+          <folding>
+            <element signature="e#178#179#0" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
+            <element signature="e#254#255#0" expanded="true" />
+            <element signature="e#286#287#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise_event_and_communication/src/kings_gambit/contracts/Killable.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="3" column="33" lean-forward="false" selection-start-line="3" selection-start-column="33" selection-end-line="3" selection-end-column="33" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise_event_and_communication/src/kings_gambit/Post/King.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="23" column="66" lean-forward="true" selection-start-line="23" selection-start-column="66" selection-end-line="23" selection-end-column="66" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#477#478#0" expanded="true" />
+            <element signature="e#537#538#0" expanded="true" />
+            <element signature="e#776#777#0" expanded="true" />
+            <element signature="e#808#809#0" expanded="true" />
+            <element signature="e#867#868#0" expanded="true" />
+            <element signature="e#914#915#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise_event_and_communication/src/kings_gambit/Post/RoyalGuard.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+          <folding />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise_event_and_communication/src/kings_gambit/Post/Footman.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="100">
+          <caret line="5" column="10" lean-forward="false" selection-start-line="5" selection-start-column="10" selection-end-line="5" selection-end-column="10" />
+          <folding>
+            <element signature="e#141#142#0" expanded="true" />
+            <element signature="e#168#169#0" expanded="true" />
+            <element signature="e#210#211#0" expanded="true" />
+            <element signature="e#289#290#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/exercise_event_and_communication/src/kings_gambit/Main.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="33" column="30" lean-forward="true" selection-start-line="33" selection-start-column="30" selection-end-line="33" selection-end-column="30" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
@@ -1098,6 +1355,17 @@
         </settings>
       </state>
       <state key="ProjectLibrariesConfigurable.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+      <state key="ScopeChooserConfigurable.UI">
         <settings>
           <splitter-proportions>
             <option name="proportions">
